@@ -1,0 +1,32 @@
+{
+  "name": "fastboot-gcloud",
+  "version": "0.1.0",
+  "description": "A FastBoot server for gcloud",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taras/fastboot-gcloud.git"
+  },
+  "keywords": [
+    "ember",
+    "fastboot",
+    "gcloud",
+    "glcoud-storage",
+    "gae",
+    "google-app-engine"
+  ],
+  "author": "Taras Mankovski <tarasm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taras/fastboot-gcloud/issues"
+  },
+  "homepage": "https://github.com/taras/fastboot-gcloud#readme",
+  "dependencies": {
+    "fastboot-app-server": "^1.0.0-beta.1",
+    "fastboot-gcloud-storage-downloader": "^0.1.0"
+  }
+}
