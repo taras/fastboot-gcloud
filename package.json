@@ -4,7 +4,7 @@
   "description": "A FastBoot server for gcloud",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "GCLOUD_PROJECT=fastboot-gcloud FASTBOOT_GCS_BUCKET=fastboot-gcloud-production FASTBOOT_GCS_KEY=fastboot-deploy-info.json node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {

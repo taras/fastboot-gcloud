@@ -1,10 +1,8 @@
 # Node
 node_modules/*
 
-# Elastic Beanstalk Files
-.elasticbeanstalk/*
-!.elasticbeanstalk/*.cfg.yml
-!.elasticbeanstalk/*.global.yml
+# Google Cloud Files
+config.json
 
 .vscode
 dist
