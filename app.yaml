@@ -1,3 +1,7 @@
 runtime: custom
 vm: true
 api_version: 1
+env_variables: 
+  GCLOUD_PROJECT: fastboot-gcloud 
+  FASTBOOT_GCS_BUCKET: fastboot-gcloud-production
+  FASTBOOT_GCS_KEY: fastboot-deploy-info.json 

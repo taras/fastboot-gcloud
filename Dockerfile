@@ -5,7 +5,7 @@ FROM gcr.io/google_appengine/nodejs
 # '>= 0.10.0', if not then do an npm install of the latest available
 # version that satisfies it.
 RUN /usr/local/bin/install_node '>= 0.10.0'
-RUN apt-get install -y zip
+RUN apt-get update && apt-get install -y zip
 COPY . /app/
 # You have to specify "--unsafe-perm" with npm install
 # when running as root.  Failing to do this can cause
