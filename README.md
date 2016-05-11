@@ -1,2 +1,2 @@
-## FastBoot Server for AWS
+## FastBoot Server for Google Cloud
 
