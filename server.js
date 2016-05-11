@@ -1,6 +1,7 @@
 "use strict";
 
 const GCloudStorageDownloader = require('fastboot-gcloud-storage-downloader');
+const GCloudStorageNotifier   = require('fastboot-gcloud-storage-notifier');
 const FastBootAppServer       = require('fastboot-app-server');
 
 const GCS_BUCKET = process.env.FASTBOOT_GCS_BUCKET;
@@ -11,8 +12,14 @@ let downloader = new GCloudStorageDownloader({
   key: GCS_KEY
 });
 
+let notifier  = new GCloudStorageNotifier({
+  bucket: GCS_BUCKET,
+  key: GCS_KEY
+});
+
 let server = new FastBootAppServer({
-  downloader: downloader
+  downloader,
+  notifier
 });
 
 server.start();

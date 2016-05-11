@@ -27,6 +27,7 @@
   "homepage": "https://github.com/taras/fastboot-gcloud#readme",
   "dependencies": {
     "fastboot-app-server": "^1.0.0-beta.1",
-    "fastboot-gcloud-storage-downloader": "^0.1.0"
+    "fastboot-gcloud-storage-downloader": "^0.1.0",
+    "fastboot-gcloud-storage-notifier": "^0.1.0"
   }
 }
