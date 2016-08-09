@@ -1,6 +1,6 @@
 {
   "name": "fastboot-gcloud",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A FastBoot server for gcloud",
   "main": "server.js",
   "scripts": {
@@ -30,7 +30,7 @@
   "homepage": "https://github.com/EmberSherpa/fastboot-gcloud#readme",
   "dependencies": {
     "@google/cloud-debug": "0.8.1",
-    "fastboot-app-server": "^1.0.0-beta.1",
+    "fastboot-app-server": "^1.0.0-rc.4",
     "fastboot-gcloud-storage-downloader": "^0.1.0",
     "fastboot-gcloud-storage-notifier": "^0.1.0"
   }
