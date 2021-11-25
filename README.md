@@ -1,6 +1,6 @@
 ## FastBoot Server for Google Cloud
 
-This is a server for hosting Ember apps in Fastboot mode on Google Cloud. It was based on Fastboot AWS. Be sure to have a project and a bucker created in Google Cloud.
+This is a server for hosting Ember apps in Fastboot mode on Google Cloud. It was based on Fastboot AWS. Be sure to have a project and a bucket created in Google Cloud.
 
 ### Prepare Google Cloud
 
